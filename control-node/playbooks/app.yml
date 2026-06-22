@@ -25,14 +25,14 @@
     - name: Copiar index.html
       copy:
         src: ../plataforma/index.html
-        dest: /var/www/html/index.html
+        dest: /var/www/html/plataforma/index.html
 
     - name: Copiar processa.php
       copy:
         src: ../plataforma/processa.php
-        dest: /var/www/html/processa.php
+        dest: /var/www/html/plataforma/processa.php
 
     - name: Copiar style.css
       copy:
         src: ../plataforma/style.css
-        dest: /var/www/html/style.css
+        dest: /var/www/html/plataforma/style.css
